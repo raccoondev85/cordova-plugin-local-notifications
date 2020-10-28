@@ -44,7 +44,7 @@ import de.appplant.cordova.plugin.badge.BadgeImpl;
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.M;
 import static android.os.Build.VERSION_CODES.O;
-import static android.support.v4.app.NotificationManagerCompat.IMPORTANCE_HIGH;
+import static androidx.core.app.NotificationManagerCompat.IMPORTANCE_DEFAULT;
 import static androidx.core.app.NotificationManagerCompat.IMPORTANCE_HIGH;
 import static androidx.core.app.NotificationManagerCompat.IMPORTANCE_LOW;
 import static de.appplant.cordova.plugin.notification.Notification.PREF_KEY_ID;
